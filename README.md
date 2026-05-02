@@ -47,18 +47,8 @@ Environment Variable Protection: All secrets (MongoDB URI, JWT Keys) are managed
 
 CORS Whitelisting: Restricted strictly to the Vercel production domain.
 
-📂 Project Structure
-Plaintext
-├── backend/
-│   ├── models/      # Mongoose schemas
-│   ├── routes/      # RBAC-protected API endpoints
-│   ├── middleware/  # JWT & Auth logic
-│   └── server.js    # Express entry point
-└── frontend/
-    ├── src/
-    │   ├── context/ # State management
-    │   ├── pages/   # Role-specific dashboards
-    │   └── utils/   # API configuration
+
+    
 ⚙️ Installation
 Clone: git clone <repository-url>
 
