@@ -26,7 +26,10 @@ app.use(express.urlencoded({ extended: true }));
 // 5. CORS Configuration (Ek hi baar use karein, properly)
 app.use(
   cors({
-    origin: "http://localhost:5173", //
+    origin: [
+    "https://e-commerce-olive-xi.vercel.app", // Aapka specific Vercel frontend
+    "http://localhost:5173"                  // Local development (Vite) ke liye
+  ], //
     credentials: true,
   }),
 );
